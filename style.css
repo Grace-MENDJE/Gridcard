@@ -15,8 +15,7 @@ img{
 }
 
 .hebergement{
-    display: grid;
-    grid-template-rows: 30% 30% 10%;  
+    display: grid;    
     background-color: #F2F2F2;
     border-radius: 20px;
 }
