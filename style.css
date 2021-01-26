@@ -60,3 +60,40 @@ i{
     font-size: 25px;
     padding-left: 50px;
 }
+
+@media screen and (max-width: 1280px)
+{   
+    .headerhebergement__title{
+    text-align: center;
+    padding-left: 0%;
+    }
+
+    .cardshebergement{    
+        display:grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto auto;       
+    }
+
+    .hebergementfooter{
+        text-align: center;
+        padding-left: 0%;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .headerhebergement__title{
+        text-align: center;
+        padding-left: 0%;
+    }
+    .cardshebergement{    
+        display:grid;
+        grid-template-columns: auto;
+           
+    }
+
+    .hebergementfooter{
+        text-align: center;
+        padding-left: 0%;
+    }
+}
+
